@@ -1,0 +1,22 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.color:disabled{
+    cursor: pointer;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
